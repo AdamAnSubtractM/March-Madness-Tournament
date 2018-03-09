@@ -1,0 +1,57 @@
+//------------------------------------//
+//  $VARIABLES
+//------------------------------------//
+
+// Colors
+$black:        #333333;
+$blue:         #0c2235;
+// $blue-transparent: rgba(0, 40, 75, 0.8);
+$blue-transparent: rgba(0, 50, 94, 0.8);
+$trueBlack:    #000000;
+$gray-dark:    #CECFD1;
+$gray:         #999999;
+$gray-transparent: rgba(234, 234, 234, 0.95);     
+$gray-light:   #e9e9ea;
+$white:        #ffffff;
+$green:        #006554;
+$orange:       #cc6520;
+$fnsOrange:    #f58023;
+$ggxyBlue:     #00203a;
+
+$primary:      #006554; // DSG Green
+$secondary:    #00203a; // GGXY Blue
+$tertiary:     #f58023; // FnS Orange
+$quaternary:   #c46e35; // dark orange
+
+// quinary, senary, septenary, octonary, nonary, denary
+
+// Form validation colors
+$state-success: #006554;
+$state-error:   #b90930;
+
+// Fonts
+$fallback: 'Roboto', 'Arial Narrow', Helvetica, 'Arial', sans-serif !important;
+$din-med: 'DIN Medium', $fallback;
+$din-light: 'DIN Light', $fallback;
+$dsg-sans-med: 'DSG Sans Medium', $fallback;
+$dsg-sans-bold: 'DSG Sans Bold', $dsg-sans-med;
+$dsg-sans-black: 'DSG Sans Black', $dsg-sans-bold;
+$font-body: $din-med;
+$font-head: $dsg-sans-black;
+$font-head-other: $dsg-sans-med;
+
+//Custom Mixins
+@mixin subtleFade($duration) {
+  -webkit-transition: color $duration ease-in, background-color $duration ease-in;
+  -moz-transition: color $duration ease-in, background-color $duration ease-in;
+  -ms-transition: color $duration ease-in, background-color $duration ease-in;
+  -o-transition: color $duration ease-in, background-color $duration ease-in;
+  transition: color $duration ease-in, background-color $duration ease-in;
+}
+@mixin smoothMovement($duration) {
+  -webkit-transition: all $duration ease-in;
+  -moz-transition: all $duration ease-in;
+  -ms-transition: all $duration ease-in;
+  -o-transition: all $duration ease-in;
+  transition: all $duration ease-in;
+}

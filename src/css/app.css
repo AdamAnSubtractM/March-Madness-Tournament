@@ -1,0 +1,1237 @@
+html {
+  /** end body */ }
+  html body {
+    margin: 0;
+    /** end .ncaa-bracket */ }
+    html body #container_3074457345618274805 .homepage-espot-level1, html body #container_3074457345618274805 .homepage-espot-level2 {
+      display: none; }
+    html body #static-page {
+      padding: 0;
+      margin: 0; }
+    html body .ncaa-bracket {
+      /*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+      font-family: "DIN Medium", "Roboto", "Arial Narrow", Helvetica, "Arial", sans-serif !important;
+      font-size: 10px !important;
+      color: #333333;
+      /** Override grid system padding on mobile devices to be less */ }
+      html body .ncaa-bracket * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+      html body .ncaa-bracket *:before,
+      html body .ncaa-bracket *:after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+      html body .ncaa-bracket html {
+        font-size: 10px;
+        -webkit-tap-highlight-color: transparent; }
+      html body .ncaa-bracket body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #333333;
+        background-color: #fff; }
+      html body .ncaa-bracket input,
+      html body .ncaa-bracket button,
+      html body .ncaa-bracket select,
+      html body .ncaa-bracket textarea {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit; }
+      html body .ncaa-bracket a {
+        color: #337ab7;
+        text-decoration: none; }
+        html body .ncaa-bracket a:hover, html body .ncaa-bracket a:focus {
+          color: #23527c;
+          text-decoration: underline; }
+        html body .ncaa-bracket a:focus {
+          outline: 5px auto -webkit-focus-ring-color;
+          outline-offset: -2px; }
+      html body .ncaa-bracket figure {
+        margin: 0; }
+      html body .ncaa-bracket img {
+        vertical-align: middle; }
+      html body .ncaa-bracket .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto; }
+      html body .ncaa-bracket .img-rounded {
+        border-radius: 6px; }
+      html body .ncaa-bracket .img-thumbnail {
+        padding: 4px;
+        line-height: 1.42857;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        display: inline-block;
+        max-width: 100%;
+        height: auto; }
+      html body .ncaa-bracket .img-circle {
+        border-radius: 50%; }
+      html body .ncaa-bracket hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #eeeeee; }
+      html body .ncaa-bracket .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0; }
+      html body .ncaa-bracket .sr-only-focusable:active, html body .ncaa-bracket .sr-only-focusable:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        clip: auto; }
+      html body .ncaa-bracket [role="button"] {
+        cursor: pointer; }
+      html body .ncaa-bracket .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px; }
+        html body .ncaa-bracket .container:before, html body .ncaa-bracket .container:after {
+          content: " ";
+          display: table; }
+        html body .ncaa-bracket .container:after {
+          clear: both; }
+        @media (min-width: 768px) {
+          html body .ncaa-bracket .container {
+            width: 750px; } }
+        @media (min-width: 992px) {
+          html body .ncaa-bracket .container {
+            width: 970px; } }
+        @media (min-width: 1200px) {
+          html body .ncaa-bracket .container {
+            width: 1170px; } }
+      html body .ncaa-bracket .container-fluid {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px; }
+        html body .ncaa-bracket .container-fluid:before, html body .ncaa-bracket .container-fluid:after {
+          content: " ";
+          display: table; }
+        html body .ncaa-bracket .container-fluid:after {
+          clear: both; }
+      html body .ncaa-bracket .row {
+        margin-left: -15px;
+        margin-right: -15px; }
+        html body .ncaa-bracket .row:before, html body .ncaa-bracket .row:after {
+          content: " ";
+          display: table; }
+        html body .ncaa-bracket .row:after {
+          clear: both; }
+      html body .ncaa-bracket .col-xs-1, html body .ncaa-bracket .col-sm-1, html body .ncaa-bracket .col-md-1, html body .ncaa-bracket .col-lg-1, html body .ncaa-bracket .col-xs-2, html body .ncaa-bracket .col-sm-2, html body .ncaa-bracket .col-md-2, html body .ncaa-bracket .col-lg-2, html body .ncaa-bracket .col-xs-3, html body .ncaa-bracket .col-sm-3, html body .ncaa-bracket .col-md-3, html body .ncaa-bracket .col-lg-3, html body .ncaa-bracket .col-xs-4, html body .ncaa-bracket .col-sm-4, html body .ncaa-bracket .col-md-4, html body .ncaa-bracket .col-lg-4, html body .ncaa-bracket .col-xs-5, html body .ncaa-bracket .col-sm-5, html body .ncaa-bracket .col-md-5, html body .ncaa-bracket .col-lg-5, html body .ncaa-bracket .col-xs-6, html body .ncaa-bracket .col-sm-6, html body .ncaa-bracket .col-md-6, html body .ncaa-bracket .col-lg-6, html body .ncaa-bracket .col-xs-7, html body .ncaa-bracket .col-sm-7, html body .ncaa-bracket .col-md-7, html body .ncaa-bracket .col-lg-7, html body .ncaa-bracket .col-xs-8, html body .ncaa-bracket .col-sm-8, html body .ncaa-bracket .col-md-8, html body .ncaa-bracket .col-lg-8, html body .ncaa-bracket .col-xs-9, html body .ncaa-bracket .col-sm-9, html body .ncaa-bracket .col-md-9, html body .ncaa-bracket .col-lg-9, html body .ncaa-bracket .col-xs-10, html body .ncaa-bracket .col-sm-10, html body .ncaa-bracket .col-md-10, html body .ncaa-bracket .col-lg-10, html body .ncaa-bracket .col-xs-11, html body .ncaa-bracket .col-sm-11, html body .ncaa-bracket .col-md-11, html body .ncaa-bracket .col-lg-11, html body .ncaa-bracket .col-xs-12, html body .ncaa-bracket .col-sm-12, html body .ncaa-bracket .col-md-12, html body .ncaa-bracket .col-lg-12 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; }
+      html body .ncaa-bracket .col-xs-1, html body .ncaa-bracket .col-xs-2, html body .ncaa-bracket .col-xs-3, html body .ncaa-bracket .col-xs-4, html body .ncaa-bracket .col-xs-5, html body .ncaa-bracket .col-xs-6, html body .ncaa-bracket .col-xs-7, html body .ncaa-bracket .col-xs-8, html body .ncaa-bracket .col-xs-9, html body .ncaa-bracket .col-xs-10, html body .ncaa-bracket .col-xs-11, html body .ncaa-bracket .col-xs-12 {
+        float: left; }
+      html body .ncaa-bracket .col-xs-1 {
+        width: 8.33333%; }
+      html body .ncaa-bracket .col-xs-2 {
+        width: 16.66667%; }
+      html body .ncaa-bracket .col-xs-3 {
+        width: 25%; }
+      html body .ncaa-bracket .col-xs-4 {
+        width: 33.33333%; }
+      html body .ncaa-bracket .col-xs-5 {
+        width: 41.66667%; }
+      html body .ncaa-bracket .col-xs-6 {
+        width: 50%; }
+      html body .ncaa-bracket .col-xs-7 {
+        width: 58.33333%; }
+      html body .ncaa-bracket .col-xs-8 {
+        width: 66.66667%; }
+      html body .ncaa-bracket .col-xs-9 {
+        width: 75%; }
+      html body .ncaa-bracket .col-xs-10 {
+        width: 83.33333%; }
+      html body .ncaa-bracket .col-xs-11 {
+        width: 91.66667%; }
+      html body .ncaa-bracket .col-xs-12 {
+        width: 100%; }
+      html body .ncaa-bracket .col-xs-pull-0 {
+        right: auto; }
+      html body .ncaa-bracket .col-xs-pull-1 {
+        right: 8.33333%; }
+      html body .ncaa-bracket .col-xs-pull-2 {
+        right: 16.66667%; }
+      html body .ncaa-bracket .col-xs-pull-3 {
+        right: 25%; }
+      html body .ncaa-bracket .col-xs-pull-4 {
+        right: 33.33333%; }
+      html body .ncaa-bracket .col-xs-pull-5 {
+        right: 41.66667%; }
+      html body .ncaa-bracket .col-xs-pull-6 {
+        right: 50%; }
+      html body .ncaa-bracket .col-xs-pull-7 {
+        right: 58.33333%; }
+      html body .ncaa-bracket .col-xs-pull-8 {
+        right: 66.66667%; }
+      html body .ncaa-bracket .col-xs-pull-9 {
+        right: 75%; }
+      html body .ncaa-bracket .col-xs-pull-10 {
+        right: 83.33333%; }
+      html body .ncaa-bracket .col-xs-pull-11 {
+        right: 91.66667%; }
+      html body .ncaa-bracket .col-xs-pull-12 {
+        right: 100%; }
+      html body .ncaa-bracket .col-xs-push-0 {
+        left: auto; }
+      html body .ncaa-bracket .col-xs-push-1 {
+        left: 8.33333%; }
+      html body .ncaa-bracket .col-xs-push-2 {
+        left: 16.66667%; }
+      html body .ncaa-bracket .col-xs-push-3 {
+        left: 25%; }
+      html body .ncaa-bracket .col-xs-push-4 {
+        left: 33.33333%; }
+      html body .ncaa-bracket .col-xs-push-5 {
+        left: 41.66667%; }
+      html body .ncaa-bracket .col-xs-push-6 {
+        left: 50%; }
+      html body .ncaa-bracket .col-xs-push-7 {
+        left: 58.33333%; }
+      html body .ncaa-bracket .col-xs-push-8 {
+        left: 66.66667%; }
+      html body .ncaa-bracket .col-xs-push-9 {
+        left: 75%; }
+      html body .ncaa-bracket .col-xs-push-10 {
+        left: 83.33333%; }
+      html body .ncaa-bracket .col-xs-push-11 {
+        left: 91.66667%; }
+      html body .ncaa-bracket .col-xs-push-12 {
+        left: 100%; }
+      html body .ncaa-bracket .col-xs-offset-0 {
+        margin-left: 0%; }
+      html body .ncaa-bracket .col-xs-offset-1 {
+        margin-left: 8.33333%; }
+      html body .ncaa-bracket .col-xs-offset-2 {
+        margin-left: 16.66667%; }
+      html body .ncaa-bracket .col-xs-offset-3 {
+        margin-left: 25%; }
+      html body .ncaa-bracket .col-xs-offset-4 {
+        margin-left: 33.33333%; }
+      html body .ncaa-bracket .col-xs-offset-5 {
+        margin-left: 41.66667%; }
+      html body .ncaa-bracket .col-xs-offset-6 {
+        margin-left: 50%; }
+      html body .ncaa-bracket .col-xs-offset-7 {
+        margin-left: 58.33333%; }
+      html body .ncaa-bracket .col-xs-offset-8 {
+        margin-left: 66.66667%; }
+      html body .ncaa-bracket .col-xs-offset-9 {
+        margin-left: 75%; }
+      html body .ncaa-bracket .col-xs-offset-10 {
+        margin-left: 83.33333%; }
+      html body .ncaa-bracket .col-xs-offset-11 {
+        margin-left: 91.66667%; }
+      html body .ncaa-bracket .col-xs-offset-12 {
+        margin-left: 100%; }
+      @media (min-width: 768px) {
+        html body .ncaa-bracket .col-sm-1, html body .ncaa-bracket .col-sm-2, html body .ncaa-bracket .col-sm-3, html body .ncaa-bracket .col-sm-4, html body .ncaa-bracket .col-sm-5, html body .ncaa-bracket .col-sm-6, html body .ncaa-bracket .col-sm-7, html body .ncaa-bracket .col-sm-8, html body .ncaa-bracket .col-sm-9, html body .ncaa-bracket .col-sm-10, html body .ncaa-bracket .col-sm-11, html body .ncaa-bracket .col-sm-12 {
+          float: left; }
+        html body .ncaa-bracket .col-sm-1 {
+          width: 8.33333%; }
+        html body .ncaa-bracket .col-sm-2 {
+          width: 16.66667%; }
+        html body .ncaa-bracket .col-sm-3 {
+          width: 25%; }
+        html body .ncaa-bracket .col-sm-4 {
+          width: 33.33333%; }
+        html body .ncaa-bracket .col-sm-5 {
+          width: 41.66667%; }
+        html body .ncaa-bracket .col-sm-6 {
+          width: 50%; }
+        html body .ncaa-bracket .col-sm-7 {
+          width: 58.33333%; }
+        html body .ncaa-bracket .col-sm-8 {
+          width: 66.66667%; }
+        html body .ncaa-bracket .col-sm-9 {
+          width: 75%; }
+        html body .ncaa-bracket .col-sm-10 {
+          width: 83.33333%; }
+        html body .ncaa-bracket .col-sm-11 {
+          width: 91.66667%; }
+        html body .ncaa-bracket .col-sm-12 {
+          width: 100%; }
+        html body .ncaa-bracket .col-sm-pull-0 {
+          right: auto; }
+        html body .ncaa-bracket .col-sm-pull-1 {
+          right: 8.33333%; }
+        html body .ncaa-bracket .col-sm-pull-2 {
+          right: 16.66667%; }
+        html body .ncaa-bracket .col-sm-pull-3 {
+          right: 25%; }
+        html body .ncaa-bracket .col-sm-pull-4 {
+          right: 33.33333%; }
+        html body .ncaa-bracket .col-sm-pull-5 {
+          right: 41.66667%; }
+        html body .ncaa-bracket .col-sm-pull-6 {
+          right: 50%; }
+        html body .ncaa-bracket .col-sm-pull-7 {
+          right: 58.33333%; }
+        html body .ncaa-bracket .col-sm-pull-8 {
+          right: 66.66667%; }
+        html body .ncaa-bracket .col-sm-pull-9 {
+          right: 75%; }
+        html body .ncaa-bracket .col-sm-pull-10 {
+          right: 83.33333%; }
+        html body .ncaa-bracket .col-sm-pull-11 {
+          right: 91.66667%; }
+        html body .ncaa-bracket .col-sm-pull-12 {
+          right: 100%; }
+        html body .ncaa-bracket .col-sm-push-0 {
+          left: auto; }
+        html body .ncaa-bracket .col-sm-push-1 {
+          left: 8.33333%; }
+        html body .ncaa-bracket .col-sm-push-2 {
+          left: 16.66667%; }
+        html body .ncaa-bracket .col-sm-push-3 {
+          left: 25%; }
+        html body .ncaa-bracket .col-sm-push-4 {
+          left: 33.33333%; }
+        html body .ncaa-bracket .col-sm-push-5 {
+          left: 41.66667%; }
+        html body .ncaa-bracket .col-sm-push-6 {
+          left: 50%; }
+        html body .ncaa-bracket .col-sm-push-7 {
+          left: 58.33333%; }
+        html body .ncaa-bracket .col-sm-push-8 {
+          left: 66.66667%; }
+        html body .ncaa-bracket .col-sm-push-9 {
+          left: 75%; }
+        html body .ncaa-bracket .col-sm-push-10 {
+          left: 83.33333%; }
+        html body .ncaa-bracket .col-sm-push-11 {
+          left: 91.66667%; }
+        html body .ncaa-bracket .col-sm-push-12 {
+          left: 100%; }
+        html body .ncaa-bracket .col-sm-offset-0 {
+          margin-left: 0%; }
+        html body .ncaa-bracket .col-sm-offset-1 {
+          margin-left: 8.33333%; }
+        html body .ncaa-bracket .col-sm-offset-2 {
+          margin-left: 16.66667%; }
+        html body .ncaa-bracket .col-sm-offset-3 {
+          margin-left: 25%; }
+        html body .ncaa-bracket .col-sm-offset-4 {
+          margin-left: 33.33333%; }
+        html body .ncaa-bracket .col-sm-offset-5 {
+          margin-left: 41.66667%; }
+        html body .ncaa-bracket .col-sm-offset-6 {
+          margin-left: 50%; }
+        html body .ncaa-bracket .col-sm-offset-7 {
+          margin-left: 58.33333%; }
+        html body .ncaa-bracket .col-sm-offset-8 {
+          margin-left: 66.66667%; }
+        html body .ncaa-bracket .col-sm-offset-9 {
+          margin-left: 75%; }
+        html body .ncaa-bracket .col-sm-offset-10 {
+          margin-left: 83.33333%; }
+        html body .ncaa-bracket .col-sm-offset-11 {
+          margin-left: 91.66667%; }
+        html body .ncaa-bracket .col-sm-offset-12 {
+          margin-left: 100%; } }
+      @media (min-width: 992px) {
+        html body .ncaa-bracket .col-md-1, html body .ncaa-bracket .col-md-2, html body .ncaa-bracket .col-md-3, html body .ncaa-bracket .col-md-4, html body .ncaa-bracket .col-md-5, html body .ncaa-bracket .col-md-6, html body .ncaa-bracket .col-md-7, html body .ncaa-bracket .col-md-8, html body .ncaa-bracket .col-md-9, html body .ncaa-bracket .col-md-10, html body .ncaa-bracket .col-md-11, html body .ncaa-bracket .col-md-12 {
+          float: left; }
+        html body .ncaa-bracket .col-md-1 {
+          width: 8.33333%; }
+        html body .ncaa-bracket .col-md-2 {
+          width: 16.66667%; }
+        html body .ncaa-bracket .col-md-3 {
+          width: 25%; }
+        html body .ncaa-bracket .col-md-4 {
+          width: 33.33333%; }
+        html body .ncaa-bracket .col-md-5 {
+          width: 41.66667%; }
+        html body .ncaa-bracket .col-md-6 {
+          width: 50%; }
+        html body .ncaa-bracket .col-md-7 {
+          width: 58.33333%; }
+        html body .ncaa-bracket .col-md-8 {
+          width: 66.66667%; }
+        html body .ncaa-bracket .col-md-9 {
+          width: 75%; }
+        html body .ncaa-bracket .col-md-10 {
+          width: 83.33333%; }
+        html body .ncaa-bracket .col-md-11 {
+          width: 91.66667%; }
+        html body .ncaa-bracket .col-md-12 {
+          width: 100%; }
+        html body .ncaa-bracket .col-md-pull-0 {
+          right: auto; }
+        html body .ncaa-bracket .col-md-pull-1 {
+          right: 8.33333%; }
+        html body .ncaa-bracket .col-md-pull-2 {
+          right: 16.66667%; }
+        html body .ncaa-bracket .col-md-pull-3 {
+          right: 25%; }
+        html body .ncaa-bracket .col-md-pull-4 {
+          right: 33.33333%; }
+        html body .ncaa-bracket .col-md-pull-5 {
+          right: 41.66667%; }
+        html body .ncaa-bracket .col-md-pull-6 {
+          right: 50%; }
+        html body .ncaa-bracket .col-md-pull-7 {
+          right: 58.33333%; }
+        html body .ncaa-bracket .col-md-pull-8 {
+          right: 66.66667%; }
+        html body .ncaa-bracket .col-md-pull-9 {
+          right: 75%; }
+        html body .ncaa-bracket .col-md-pull-10 {
+          right: 83.33333%; }
+        html body .ncaa-bracket .col-md-pull-11 {
+          right: 91.66667%; }
+        html body .ncaa-bracket .col-md-pull-12 {
+          right: 100%; }
+        html body .ncaa-bracket .col-md-push-0 {
+          left: auto; }
+        html body .ncaa-bracket .col-md-push-1 {
+          left: 8.33333%; }
+        html body .ncaa-bracket .col-md-push-2 {
+          left: 16.66667%; }
+        html body .ncaa-bracket .col-md-push-3 {
+          left: 25%; }
+        html body .ncaa-bracket .col-md-push-4 {
+          left: 33.33333%; }
+        html body .ncaa-bracket .col-md-push-5 {
+          left: 41.66667%; }
+        html body .ncaa-bracket .col-md-push-6 {
+          left: 50%; }
+        html body .ncaa-bracket .col-md-push-7 {
+          left: 58.33333%; }
+        html body .ncaa-bracket .col-md-push-8 {
+          left: 66.66667%; }
+        html body .ncaa-bracket .col-md-push-9 {
+          left: 75%; }
+        html body .ncaa-bracket .col-md-push-10 {
+          left: 83.33333%; }
+        html body .ncaa-bracket .col-md-push-11 {
+          left: 91.66667%; }
+        html body .ncaa-bracket .col-md-push-12 {
+          left: 100%; }
+        html body .ncaa-bracket .col-md-offset-0 {
+          margin-left: 0%; }
+        html body .ncaa-bracket .col-md-offset-1 {
+          margin-left: 8.33333%; }
+        html body .ncaa-bracket .col-md-offset-2 {
+          margin-left: 16.66667%; }
+        html body .ncaa-bracket .col-md-offset-3 {
+          margin-left: 25%; }
+        html body .ncaa-bracket .col-md-offset-4 {
+          margin-left: 33.33333%; }
+        html body .ncaa-bracket .col-md-offset-5 {
+          margin-left: 41.66667%; }
+        html body .ncaa-bracket .col-md-offset-6 {
+          margin-left: 50%; }
+        html body .ncaa-bracket .col-md-offset-7 {
+          margin-left: 58.33333%; }
+        html body .ncaa-bracket .col-md-offset-8 {
+          margin-left: 66.66667%; }
+        html body .ncaa-bracket .col-md-offset-9 {
+          margin-left: 75%; }
+        html body .ncaa-bracket .col-md-offset-10 {
+          margin-left: 83.33333%; }
+        html body .ncaa-bracket .col-md-offset-11 {
+          margin-left: 91.66667%; }
+        html body .ncaa-bracket .col-md-offset-12 {
+          margin-left: 100%; } }
+      @media (min-width: 1200px) {
+        html body .ncaa-bracket .col-lg-1, html body .ncaa-bracket .col-lg-2, html body .ncaa-bracket .col-lg-3, html body .ncaa-bracket .col-lg-4, html body .ncaa-bracket .col-lg-5, html body .ncaa-bracket .col-lg-6, html body .ncaa-bracket .col-lg-7, html body .ncaa-bracket .col-lg-8, html body .ncaa-bracket .col-lg-9, html body .ncaa-bracket .col-lg-10, html body .ncaa-bracket .col-lg-11, html body .ncaa-bracket .col-lg-12 {
+          float: left; }
+        html body .ncaa-bracket .col-lg-1 {
+          width: 8.33333%; }
+        html body .ncaa-bracket .col-lg-2 {
+          width: 16.66667%; }
+        html body .ncaa-bracket .col-lg-3 {
+          width: 25%; }
+        html body .ncaa-bracket .col-lg-4 {
+          width: 33.33333%; }
+        html body .ncaa-bracket .col-lg-5 {
+          width: 41.66667%; }
+        html body .ncaa-bracket .col-lg-6 {
+          width: 50%; }
+        html body .ncaa-bracket .col-lg-7 {
+          width: 58.33333%; }
+        html body .ncaa-bracket .col-lg-8 {
+          width: 66.66667%; }
+        html body .ncaa-bracket .col-lg-9 {
+          width: 75%; }
+        html body .ncaa-bracket .col-lg-10 {
+          width: 83.33333%; }
+        html body .ncaa-bracket .col-lg-11 {
+          width: 91.66667%; }
+        html body .ncaa-bracket .col-lg-12 {
+          width: 100%; }
+        html body .ncaa-bracket .col-lg-pull-0 {
+          right: auto; }
+        html body .ncaa-bracket .col-lg-pull-1 {
+          right: 8.33333%; }
+        html body .ncaa-bracket .col-lg-pull-2 {
+          right: 16.66667%; }
+        html body .ncaa-bracket .col-lg-pull-3 {
+          right: 25%; }
+        html body .ncaa-bracket .col-lg-pull-4 {
+          right: 33.33333%; }
+        html body .ncaa-bracket .col-lg-pull-5 {
+          right: 41.66667%; }
+        html body .ncaa-bracket .col-lg-pull-6 {
+          right: 50%; }
+        html body .ncaa-bracket .col-lg-pull-7 {
+          right: 58.33333%; }
+        html body .ncaa-bracket .col-lg-pull-8 {
+          right: 66.66667%; }
+        html body .ncaa-bracket .col-lg-pull-9 {
+          right: 75%; }
+        html body .ncaa-bracket .col-lg-pull-10 {
+          right: 83.33333%; }
+        html body .ncaa-bracket .col-lg-pull-11 {
+          right: 91.66667%; }
+        html body .ncaa-bracket .col-lg-pull-12 {
+          right: 100%; }
+        html body .ncaa-bracket .col-lg-push-0 {
+          left: auto; }
+        html body .ncaa-bracket .col-lg-push-1 {
+          left: 8.33333%; }
+        html body .ncaa-bracket .col-lg-push-2 {
+          left: 16.66667%; }
+        html body .ncaa-bracket .col-lg-push-3 {
+          left: 25%; }
+        html body .ncaa-bracket .col-lg-push-4 {
+          left: 33.33333%; }
+        html body .ncaa-bracket .col-lg-push-5 {
+          left: 41.66667%; }
+        html body .ncaa-bracket .col-lg-push-6 {
+          left: 50%; }
+        html body .ncaa-bracket .col-lg-push-7 {
+          left: 58.33333%; }
+        html body .ncaa-bracket .col-lg-push-8 {
+          left: 66.66667%; }
+        html body .ncaa-bracket .col-lg-push-9 {
+          left: 75%; }
+        html body .ncaa-bracket .col-lg-push-10 {
+          left: 83.33333%; }
+        html body .ncaa-bracket .col-lg-push-11 {
+          left: 91.66667%; }
+        html body .ncaa-bracket .col-lg-push-12 {
+          left: 100%; }
+        html body .ncaa-bracket .col-lg-offset-0 {
+          margin-left: 0%; }
+        html body .ncaa-bracket .col-lg-offset-1 {
+          margin-left: 8.33333%; }
+        html body .ncaa-bracket .col-lg-offset-2 {
+          margin-left: 16.66667%; }
+        html body .ncaa-bracket .col-lg-offset-3 {
+          margin-left: 25%; }
+        html body .ncaa-bracket .col-lg-offset-4 {
+          margin-left: 33.33333%; }
+        html body .ncaa-bracket .col-lg-offset-5 {
+          margin-left: 41.66667%; }
+        html body .ncaa-bracket .col-lg-offset-6 {
+          margin-left: 50%; }
+        html body .ncaa-bracket .col-lg-offset-7 {
+          margin-left: 58.33333%; }
+        html body .ncaa-bracket .col-lg-offset-8 {
+          margin-left: 66.66667%; }
+        html body .ncaa-bracket .col-lg-offset-9 {
+          margin-left: 75%; }
+        html body .ncaa-bracket .col-lg-offset-10 {
+          margin-left: 83.33333%; }
+        html body .ncaa-bracket .col-lg-offset-11 {
+          margin-left: 91.66667%; }
+        html body .ncaa-bracket .col-lg-offset-12 {
+          margin-left: 100%; } }
+      html body .ncaa-bracket .embed-responsive {
+        position: relative;
+        display: block;
+        height: 0;
+        padding: 0;
+        overflow: hidden; }
+        html body .ncaa-bracket .embed-responsive .embed-responsive-item,
+        html body .ncaa-bracket .embed-responsive iframe,
+        html body .ncaa-bracket .embed-responsive embed,
+        html body .ncaa-bracket .embed-responsive object,
+        html body .ncaa-bracket .embed-responsive video {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          height: 100%;
+          width: 100%;
+          border: 0; }
+      html body .ncaa-bracket .embed-responsive-16by9 {
+        padding-bottom: 56.25%; }
+      html body .ncaa-bracket .embed-responsive-4by3 {
+        padding-bottom: 75%; }
+      html body .ncaa-bracket .clearfix:before, html body .ncaa-bracket .clearfix:after {
+        content: " ";
+        display: table; }
+      html body .ncaa-bracket .clearfix:after {
+        clear: both; }
+      html body .ncaa-bracket .center-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
+      html body .ncaa-bracket .pull-right {
+        float: right !important; }
+      html body .ncaa-bracket .pull-left {
+        float: left !important; }
+      html body .ncaa-bracket .hide {
+        display: none !important; }
+      html body .ncaa-bracket .show {
+        display: block !important; }
+      html body .ncaa-bracket .invisible {
+        visibility: hidden; }
+      html body .ncaa-bracket .text-hide {
+        font: 0/0 a;
+        color: transparent;
+        text-shadow: none;
+        background-color: transparent;
+        border: 0; }
+      html body .ncaa-bracket .hidden {
+        display: none !important; }
+      html body .ncaa-bracket .affix {
+        position: fixed; }
+
+@-ms-viewport {
+  width: device-width; }
+      html body .ncaa-bracket .visible-xs {
+        display: none !important; }
+      html body .ncaa-bracket .visible-sm {
+        display: none !important; }
+      html body .ncaa-bracket .visible-md {
+        display: none !important; }
+      html body .ncaa-bracket .visible-lg {
+        display: none !important; }
+      html body .ncaa-bracket .visible-xs-block,
+      html body .ncaa-bracket .visible-xs-inline,
+      html body .ncaa-bracket .visible-xs-inline-block,
+      html body .ncaa-bracket .visible-sm-block,
+      html body .ncaa-bracket .visible-sm-inline,
+      html body .ncaa-bracket .visible-sm-inline-block,
+      html body .ncaa-bracket .visible-md-block,
+      html body .ncaa-bracket .visible-md-inline,
+      html body .ncaa-bracket .visible-md-inline-block,
+      html body .ncaa-bracket .visible-lg-block,
+      html body .ncaa-bracket .visible-lg-inline,
+      html body .ncaa-bracket .visible-lg-inline-block {
+        display: none !important; }
+      @media (max-width: 767px) {
+        html body .ncaa-bracket .visible-xs {
+          display: block !important; }
+        html body .ncaa-bracket table.visible-xs {
+          display: table !important; }
+        html body .ncaa-bracket tr.visible-xs {
+          display: table-row !important; }
+        html body .ncaa-bracket th.visible-xs,
+        html body .ncaa-bracket td.visible-xs {
+          display: table-cell !important; } }
+      @media (max-width: 767px) {
+        html body .ncaa-bracket .visible-xs-block {
+          display: block !important; } }
+      @media (max-width: 767px) {
+        html body .ncaa-bracket .visible-xs-inline {
+          display: inline !important; } }
+      @media (max-width: 767px) {
+        html body .ncaa-bracket .visible-xs-inline-block {
+          display: inline-block !important; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        html body .ncaa-bracket .visible-sm {
+          display: block !important; }
+        html body .ncaa-bracket table.visible-sm {
+          display: table !important; }
+        html body .ncaa-bracket tr.visible-sm {
+          display: table-row !important; }
+        html body .ncaa-bracket th.visible-sm,
+        html body .ncaa-bracket td.visible-sm {
+          display: table-cell !important; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        html body .ncaa-bracket .visible-sm-block {
+          display: block !important; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        html body .ncaa-bracket .visible-sm-inline {
+          display: inline !important; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        html body .ncaa-bracket .visible-sm-inline-block {
+          display: inline-block !important; } }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        html body .ncaa-bracket .visible-md {
+          display: block !important; }
+        html body .ncaa-bracket table.visible-md {
+          display: table !important; }
+        html body .ncaa-bracket tr.visible-md {
+          display: table-row !important; }
+        html body .ncaa-bracket th.visible-md,
+        html body .ncaa-bracket td.visible-md {
+          display: table-cell !important; } }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        html body .ncaa-bracket .visible-md-block {
+          display: block !important; } }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        html body .ncaa-bracket .visible-md-inline {
+          display: inline !important; } }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        html body .ncaa-bracket .visible-md-inline-block {
+          display: inline-block !important; } }
+      @media (min-width: 1200px) {
+        html body .ncaa-bracket .visible-lg {
+          display: block !important; }
+        html body .ncaa-bracket table.visible-lg {
+          display: table !important; }
+        html body .ncaa-bracket tr.visible-lg {
+          display: table-row !important; }
+        html body .ncaa-bracket th.visible-lg,
+        html body .ncaa-bracket td.visible-lg {
+          display: table-cell !important; } }
+      @media (min-width: 1200px) {
+        html body .ncaa-bracket .visible-lg-block {
+          display: block !important; } }
+      @media (min-width: 1200px) {
+        html body .ncaa-bracket .visible-lg-inline {
+          display: inline !important; } }
+      @media (min-width: 1200px) {
+        html body .ncaa-bracket .visible-lg-inline-block {
+          display: inline-block !important; } }
+      @media (max-width: 767px) {
+        html body .ncaa-bracket .hidden-xs {
+          display: none !important; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        html body .ncaa-bracket .hidden-sm {
+          display: none !important; } }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        html body .ncaa-bracket .hidden-md {
+          display: none !important; } }
+      @media (min-width: 1200px) {
+        html body .ncaa-bracket .hidden-lg {
+          display: none !important; } }
+      html body .ncaa-bracket .visible-print {
+        display: none !important; }
+      @media print {
+        html body .ncaa-bracket .visible-print {
+          display: block !important; }
+        html body .ncaa-bracket table.visible-print {
+          display: table !important; }
+        html body .ncaa-bracket tr.visible-print {
+          display: table-row !important; }
+        html body .ncaa-bracket th.visible-print,
+        html body .ncaa-bracket td.visible-print {
+          display: table-cell !important; } }
+      html body .ncaa-bracket .visible-print-block {
+        display: none !important; }
+        @media print {
+          html body .ncaa-bracket .visible-print-block {
+            display: block !important; } }
+      html body .ncaa-bracket .visible-print-inline {
+        display: none !important; }
+        @media print {
+          html body .ncaa-bracket .visible-print-inline {
+            display: inline !important; } }
+      html body .ncaa-bracket .visible-print-inline-block {
+        display: none !important; }
+        @media print {
+          html body .ncaa-bracket .visible-print-inline-block {
+            display: inline-block !important; } }
+      @media print {
+        html body .ncaa-bracket .hidden-print {
+          display: none !important; } }
+
+@-webkit-keyframes bounce_circle {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  100% {
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3); } }
+
+@keyframes bounce_circle {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  100% {
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3); } }
+      html body .ncaa-bracket .finder-preloader-mask {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .8;
+        filter: alpha(opacity=80);
+        /* IE8 and lower */
+        zoom: 1;
+        /* Triggers "hasLayout" in IE 7 and lower */
+        z-index: 9999;
+        background: white;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -ms-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out; }
+        html body .ncaa-bracket .finder-preloader-mask.content-loaded {
+          opacity: 0;
+          filter: alpha(opacity=0);
+          /* IE8 and lower */
+          zoom: 1;
+          /* Triggers "hasLayout" in IE 7 and lower */
+          visibility: hidden; }
+      html body .ncaa-bracket .finder-loading-animation-container {
+        position: relative; }
+        html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation {
+          position: fixed;
+          -webkit-transform: translate(-50%, -40%);
+              -ms-transform: translate(-50%, -40%);
+                  transform: translate(-50%, -40%);
+          left: 50%;
+          top: 40%;
+          width: 57px;
+          height: 57px;
+          margin: auto;
+          z-index: 99999;
+          transition: all 0.35s ease-out;
+          -webkit-transition: all 0.35s ease-out;
+          -moz-transition: all 0.35s ease-out;
+          -ms-transition: all 0.35s ease-out;
+          -o-transition: all 0.35s ease-out; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation .spinner {
+            position: absolute;
+            background-color: #006554;
+            width: 13px;
+            height: 13px;
+            border-radius: 9px;
+            -webkit-animation-name: bounce_circle;
+                    animation-name: bounce_circle;
+            -webkit-animation-duration: 1.1s;
+                    animation-duration: 1.1s;
+            -webkit-animation-iteration-count: infinite;
+                    animation-iteration-count: infinite;
+            -webkit-animation-direction: normal;
+                    animation-direction: normal; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation #circle-1 {
+            left: 0;
+            top: 23px;
+            -webkit-animation-delay: 0.41s;
+                    animation-delay: 0.41s; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation #circle-2 {
+            left: 6px;
+            top: 6px;
+            -webkit-animation-delay: 0.55s;
+                    animation-delay: 0.55s; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation #circle-3 {
+            top: 0;
+            left: 23px;
+            -webkit-animation-delay: 0.69s;
+                    animation-delay: 0.69s; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation #circle-4 {
+            right: 6px;
+            top: 6px;
+            -webkit-animation-delay: 0.83s;
+                    animation-delay: 0.83s; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation #circle-5 {
+            right: 0;
+            top: 23px;
+            -webkit-animation-delay: 0.97s;
+                    animation-delay: 0.97s; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation #circle-6 {
+            right: 6px;
+            bottom: 6px;
+            -webkit-animation-delay: 1.1s;
+                    animation-delay: 1.1s; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation #circle-7 {
+            left: 23px;
+            bottom: 0;
+            -webkit-animation-delay: 1.24s;
+                    animation-delay: 1.24s; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-animation #circle-8 {
+            left: 6px;
+            bottom: 6px;
+            -webkit-animation-delay: 1.38s;
+                    animation-delay: 1.38s; }
+        html body .ncaa-bracket .finder-loading-animation-container .finder-loading-text {
+          position: absolute;
+          z-index: 99999;
+          left: 0;
+          right: 0;
+          width: 100%;
+          bottom: -45px; }
+          html body .ncaa-bracket .finder-loading-animation-container .finder-loading-text * {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'DSG Sans Bold', 'DSG Sans Med', 'DIN Medium', 'Roboto', 'Arial Narrow', Helevitca, Arial, sans-serif;
+            color: #333; }
+        html body .ncaa-bracket .finder-loading-animation-container.content-loaded .finder-loading-animation {
+          opacity: 1;
+          filter: alpha(opacity=100);
+          zoom: 1;
+          visibility: hidden; }
+      html body .ncaa-bracket .row {
+        margin-left: -5px;
+        margin-right: -5px; }
+        @media (min-width: 641px) {
+          html body .ncaa-bracket .row {
+            margin-left: -15px;
+            margin-right: -15px; } }
+        html body .ncaa-bracket .row [class^="col-"] {
+          padding-left: 5px;
+          padding-right: 5px; }
+          @media (min-width: 641px) {
+            html body .ncaa-bracket .row [class^="col-"] {
+              padding-right: 15px;
+              padding-left: 15px; } }
+      html body .ncaa-bracket h1, html body .ncaa-bracket h2, html body .ncaa-bracket h3, html body .ncaa-bracket h4, html body .ncaa-bracket h5, html body .ncaa-bracket h6 {
+        font-family: "DSG Sans Black", "DSG Sans Bold", "DSG Sans Medium", "Roboto", "Arial Narrow", Helvetica, "Arial", sans-serif !important;
+        line-height: 1;
+        margin: 0;
+        color: #0c2235; }
+      html body .ncaa-bracket p {
+        color: #0c2235; }
+      html body .ncaa-bracket a {
+        color: #0c2235;
+        background: transparent;
+        cursor: pointer; }
+        html body .ncaa-bracket a * {
+          cursor: pointer; }
+        html body .ncaa-bracket a:visited, html body .ncaa-bracket a:active, html body .ncaa-bracket a:focus, html body .ncaa-bracket a:hover {
+          color: inherit;
+          background: inherit;
+          text-decoration: none; }
+      html body .ncaa-bracket main .landing-hero-content {
+        background-image: url("//s7d2.scene7.com/is/image/dksfed/lic1463-basketball-wallpaper");
+        background-repeat: repeat-x;
+        background-position: center;
+        text-align: center;
+        text-transform: uppercase; }
+        html body .ncaa-bracket main .landing-hero-content header {
+          display: block;
+          width: 100%;
+          min-height: 100px;
+          background-color: rgba(0, 50, 94, 0.8);
+          border-bottom: 4px solid #cc6520;
+          padding: 0 2%; }
+          @media (min-width: 641px) {
+            html body .ncaa-bracket main .landing-hero-content header {
+              min-height: 370px; } }
+          html body .ncaa-bracket main .landing-hero-content header * {
+            color: #ffffff !important; }
+          html body .ncaa-bracket main .landing-hero-content header h2, html body .ncaa-bracket main .landing-hero-content header h3, html body .ncaa-bracket main .landing-hero-content header h4 {
+            font-size: 3.5em;
+            padding-top: 25px; }
+            @media (min-width: 400px) {
+              html body .ncaa-bracket main .landing-hero-content header h2, html body .ncaa-bracket main .landing-hero-content header h3, html body .ncaa-bracket main .landing-hero-content header h4 {
+                font-size: 5em; } }
+            @media (min-width: 500px) {
+              html body .ncaa-bracket main .landing-hero-content header h2, html body .ncaa-bracket main .landing-hero-content header h3, html body .ncaa-bracket main .landing-hero-content header h4 {
+                font-size: 6em; } }
+            @media (min-width: 641px) {
+              html body .ncaa-bracket main .landing-hero-content header h2, html body .ncaa-bracket main .landing-hero-content header h3, html body .ncaa-bracket main .landing-hero-content header h4 {
+                font-size: 8em;
+                padding-top: 44px; } }
+            @media (min-width: 800px) {
+              html body .ncaa-bracket main .landing-hero-content header h2, html body .ncaa-bracket main .landing-hero-content header h3, html body .ncaa-bracket main .landing-hero-content header h4 {
+                font-size: 10em;
+                padding-top: 24px; } }
+            @media (min-width: 1028px) {
+              html body .ncaa-bracket main .landing-hero-content header h2, html body .ncaa-bracket main .landing-hero-content header h3, html body .ncaa-bracket main .landing-hero-content header h4 {
+                padding-top: 50px; } }
+            @media (min-width: 1359px) {
+              html body .ncaa-bracket main .landing-hero-content header h2, html body .ncaa-bracket main .landing-hero-content header h3, html body .ncaa-bracket main .landing-hero-content header h4 {
+                padding-top: 100px; } }
+          html body .ncaa-bracket main .landing-hero-content header p {
+            font-family: "DSG Sans Medium", "Roboto", "Arial Narrow", Helvetica, "Arial", sans-serif !important;
+            font-size: 2.5em;
+            line-height: 1;
+            margin-top: 10px; }
+            @media (min-width: 400px) {
+              html body .ncaa-bracket main .landing-hero-content header p {
+                font-size: 3em; } }
+            @media (min-width: 500px) {
+              html body .ncaa-bracket main .landing-hero-content header p {
+                font-size: 3.5em; } }
+            @media (min-width: 641px) {
+              html body .ncaa-bracket main .landing-hero-content header p {
+                font-size: 5em;
+                margin: 20px auto; } }
+        html body .ncaa-bracket main .landing-hero-content * {
+          text-align: inherit;
+          text-align: -webkit-match-parent;
+          text-transform: inherit; }
+      html body .ncaa-bracket main nav {
+        text-align: center; }
+        html body .ncaa-bracket main nav * {
+          text-transform: uppercase;
+          font-size: inherit; }
+        html body .ncaa-bracket main nav a {
+          padding: 6px 16px;
+          text-decoration: none; }
+          html body .ncaa-bracket main nav a:visited, html body .ncaa-bracket main nav a:focus, html body .ncaa-bracket main nav a:active {
+            text-decoration: none; }
+          html body .ncaa-bracket main nav a:hover {
+            color: #ffffff;
+            background-color: #0c2235;
+            text-decoration: none; }
+          @media (min-width: 641px) {
+            html body .ncaa-bracket main nav a {
+              padding: 16px 40px; } }
+        html body .ncaa-bracket main nav.main-navigation {
+          background-color: #ffffff;
+          margin: 12px auto; }
+          @media (min-width: 500px) {
+            html body .ncaa-bracket main nav.main-navigation {
+              margin: 22px auto; } }
+          @media (min-width: 641px) {
+            html body .ncaa-bracket main nav.main-navigation {
+              margin: 45px auto; } }
+          html body .ncaa-bracket main nav.main-navigation ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0; }
+            html body .ncaa-bracket main nav.main-navigation ul li {
+              text-align: inherit;
+              text-align: -webkit-match-parent;
+              border-right: thin solid #999999; }
+              html body .ncaa-bracket main nav.main-navigation ul li:last-child {
+                border: none; }
+              html body .ncaa-bracket main nav.main-navigation ul li a {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: start;
+                    -ms-flex-align: start;
+                        align-items: flex-start;
+                font-size: 1.4em; }
+                @media (min-width: 375px) {
+                  html body .ncaa-bracket main nav.main-navigation ul li a {
+                    font-size: 1.8em; } }
+                @media (min-width: 500px) {
+                  html body .ncaa-bracket main nav.main-navigation ul li a {
+                    font-size: 2.5em; } }
+                @media (min-width: 768px) {
+                  html body .ncaa-bracket main nav.main-navigation ul li a {
+                    font-size: 3em; } }
+                html body .ncaa-bracket main nav.main-navigation ul li a.active {
+                  background-color: #0c2235;
+                  color: #ffffff; }
+      html body .ncaa-bracket main .ncaa-bracket-container {
+        background-color: #e9e9ea;
+        background: url("//s7d2.scene7.com/is/image/dksfed/lic1463-basketball-lighter");
+        background-repeat: no-repeat;
+        background-position: right center;
+        min-height: 1240px; }
+        @media (min-width: 768px) {
+          html body .ncaa-bracket main .ncaa-bracket-container {
+            min-height: 1140px; } }
+        html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap {
+          background-color: rgba(234, 234, 234, 0.95);
+          position: relative;
+          min-height: inherit; }
+          html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap > .container, html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap > .container-fluid {
+            max-width: 2200px; }
+          html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .pre-champ-container > [class^="col-"] {
+            padding-bottom: 10px; }
+          html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping {
+            -webkit-transition: all 0.25s ease-in;
+            -o-transition: all 0.25s ease-in;
+            transition: all 0.25s ease-in;
+            display: block;
+            margin-bottom: 44px; }
+            @media (min-width: 768px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping {
+                margin-bottom: 50px; } }
+            @media (min-width: 992px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping {
+                margin-bottom: 58px; } }
+            html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping:last-child {
+              margin-bottom: 0 !important; }
+            html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell {
+              background-color: #CECFD1;
+              text-transform: uppercase;
+              text-align: right;
+              padding: 2px 4px;
+              overflow: hidden; }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell:first-child {
+                margin-bottom: 4px; }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell * {
+                text-transform: inherit; }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell p {
+                margin: 0 auto;
+                font-family: "DSG Sans Medium", "Roboto", "Arial Narrow", Helvetica, "Arial", sans-serif !important; }
+                @media (min-width: 641px) {
+                  html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell p {
+                    font-size: 1.3em; } }
+                @media (min-width: 992px) {
+                  html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell p {
+                    font-size: 1.6em; } }
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell p a {
+                  display: block;
+                  height: 100%;
+                  padding: 1em 0;
+                  font-size: inherit;
+                  font-family: inherit; }
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell p.team {
+                  visibility: hidden;
+                  display: none; }
+                  @media (min-width: 400px) {
+                    html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell p.team {
+                      display: block;
+                      visibility: visible; } }
+                @media (min-width: 400px) {
+                  html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell p.team-abreviation {
+                    visibility: hidden;
+                    display: none; } }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell.eliminated p {
+                color: #999;
+                text-decoration: line-through; }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping .cell .seed-number {
+                display: inline;
+                float: left;
+                font-size: inherit; }
+            html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell {
+              text-transform: uppercase;
+              text-align: center; }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell > h2, html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell > h3, html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell > h4, html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell > h5, html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell > h6 {
+                margin-bottom: 24px;
+                font-size: 3.5em;
+                font-family: "DIN Medium", "Roboto", "Arial Narrow", Helvetica, "Arial", sans-serif !important; }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell * {
+                text-transform: inherit;
+                text-align: inherit; }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell small {
+                display: block;
+                font-weight: lighter;
+                font-family: "DIN Light", "Roboto", "Arial Narrow", Helvetica, "Arial", sans-serif !important;
+                font-size: 50%; }
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell .cell {
+                max-width: 140px;
+                margin: auto; }
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell .cell p.team {
+                  visibility: visible;
+                  display: block; }
+                @media (min-width: 768px) {
+                  html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .cell-grouping.region-champ-cell .cell {
+                    max-width: 100%; } }
+          html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .region-champ-section {
+            background-color: #e9e9ea;
+            border-top: 10px solid #ffffff;
+            padding: 55px 0; }
+            @media (min-width: 768px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .region-champ-section {
+                background-color: transparent;
+                border-top: none;
+                padding: 0; }
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .region-champ-section .region-champ-cell {
+                  margin-top: 560px; } }
+            @media (min-width: 992px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .region-champ-section .region-champ-cell {
+                margin-top: 658px;
+                min-height: 52px; } }
+          html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-number {
+            text-transform: uppercase;
+            text-align: center;
+            font-family: "DIN Light", "Roboto", "Arial Narrow", Helvetica, "Arial", sans-serif !important;
+            font-size: 1.4em;
+            margin: 0 auto 35px;
+            padding: 16px 4px;
+            max-width: 122px; }
+            @media (min-width: 400px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-number {
+                font-size: 1.6em;
+                padding: 20px 6px; } }
+            @media (min-width: 641px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-number {
+                margin-bottom: 55px;
+                padding: 30px 10;
+                font-size: 2em; } }
+            html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-number.active {
+              background-color: #0c2235;
+              color: #ffffff; }
+            html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-number * {
+              text-transform: inherit;
+              text-align: inherit;
+              font-family: inherit;
+              font-size: inherit;
+              color: inherit;
+              margin: 0 auto; }
+          html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-two .cell-grouping {
+            margin-bottom: 160px; }
+            html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-two .cell-grouping:nth-child(2) {
+              margin-top: 96px; }
+              @media (min-width: 641px) {
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-two .cell-grouping:nth-child(2) {
+                  margin-top: 128px; } }
+              @media (min-width: 992px) {
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-two .cell-grouping:nth-child(2) {
+                  margin-top: 142px; } }
+            @media (min-width: 641px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-two .cell-grouping {
+                margin-bottom: 176px; } }
+            @media (min-width: 768px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-two .cell-grouping {
+                margin-bottom: 192px; } }
+            @media (min-width: 992px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-two .cell-grouping {
+                margin-bottom: 218px; } }
+          html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-three .cell-grouping {
+            margin-bottom: 388px; }
+            html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-three .cell-grouping:nth-child(2) {
+              margin-top: 212px; }
+              @media (min-width: 641px) {
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-three .cell-grouping:nth-child(2) {
+                  margin-top: 258px; } }
+              @media (min-width: 768px) {
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-three .cell-grouping:nth-child(2) {
+                  margin-top: 264px; } }
+              @media (min-width: 992px) {
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-three .cell-grouping:nth-child(2) {
+                  margin-top: 304px; } }
+            @media (min-width: 641px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-three .cell-grouping {
+                margin-bottom: 446px; } }
+            @media (min-width: 768px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-three .cell-grouping {
+                margin-bottom: 472px; } }
+            @media (min-width: 992px) {
+              html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-three .cell-grouping {
+                margin-bottom: 554px; } }
+          html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-four .cell-grouping {
+            margin-bottom: 0; }
+            html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-four .cell-grouping:nth-child(2) {
+              margin-top: 442px; }
+              @media (min-width: 641px) {
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-four .cell-grouping:nth-child(2) {
+                  margin-top: 526px; } }
+              @media (min-width: 768px) {
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-four .cell-grouping:nth-child(2) {
+                  margin-top: 546px; } }
+              @media (min-width: 992px) {
+                html body .ncaa-bracket main .ncaa-bracket-container .ncaa-bracket-inner-wrap .round-four .cell-grouping:nth-child(2) {
+                  margin-top: 638px; } }
+
+/** end html */

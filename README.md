@@ -1,45 +1,116 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+March Madness Tournament 2018
+=========
+## Getting Started
+```sh
+1. $ git clone https://user-name@bitbucket.org/dsgfed/spaceBoots3.git
+2. $ npm i
+3. $ gulp launch
+```
+## Updating the data file as the tournament goes on. See the example and documentation below:
+* Questions?: See [Adam Knee](https://bitbucket.org/adam-knee/)
+```
+// The NCAA data object. The entire page is generated from this.
+var x = [
+  {
+      // ========================================================
+      // Required Fields
+      // ========================================================
+      // This determines the tab that the content populates in.
+      // Options: East, West, Midwest, South
+      "divison" : "East",
+      // This determines the direct location of the team on the bracket.
+      // The seed number is placed in the lower left corner of each table.
+      // Options: #1 - #16
+      "seedNumber": 1,
+      // This is the name that will display in the table row.
+      // It was decided on that the city/state would display instead of the
+      // full team name.
+      // Options: *** Will be determined day before launch ***
+      // Example: Kentucky, Virginia, Virginia Tech, Villanova
+      "schoolName" : "Kentucky",
+      // This determines the school's abbreviation. This is super important
+      // as the name switch to the abbreviation on mobile.
+      "abbreviation" : "KY",
+      // The rounds determine which column the team is populated in.
+      // During the beginning rounds, every team will have first round set to 'true'
+      // Only the teams that advance to the next round will get a 'true' on the
+      // proceeding rounds.
+      // Options: Boolean
+      "firstRound" : true,
+      "secondRound" : false,
+      "thirdRound" : false,
+      "fourthRound" : false,
+      // This determines whether the team has been eliminated or not.
+      // This is technically optional as not every team will be eliminated but
+      // its definitely required for those that are eliminated.
+      // Options: Boolean
+      "eliminated" : false,
+      // This determines whether the team has won their division or not
+      // This is technically optional as not every team will win their divison but
+      // its definitely required for those that do.
+      // Options: Boolean
+      "divisionWinner" : false,
+      // This determines whether the team has won the entire NCAA tournament
+      // Only required for the overall winner of the tournament
+      // Options: Boolean
+      "tournamentWinner" : false
+  }
+];
+// The round number data object. This determines which round gets the active state styling
+var y = [
+  {
+    "round1" : true,
+    "round2" : false,
+    "round3" : false,
+    "round4" : false
+  }
+];
+// Determines whether the Sweet Sixteen has officially started.
+var sweetSixteen = false;
+// Determines whether the Elite Eight has officially started.
+var eliteEight = false;
+// Determines whether the FinalFour has oficially started.
+var finalFour = false;
+// Determines whether the Championship game has officially started.
+var championship = false;
+```
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Your editor can be setup with EditorConfig so that code style standards are enforced automatically. See http://editorconfig.org/#download and install the plugin for your editor of choice.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+## The spaceBoots3 folder structure:
 
----
+Read the [CSS Architecture Overview](src/scss/README.md) for documentation of the SCSS files.
 
-## Edit a file
+```
+Build in the src directory. 
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+src/
+  assets/
+    fonts/
+    images/
+    media/
+scss/
+  bootstrap3/
+    bootstrap/
+    _bootstrap3.scss
+  _manifest.scss
+  _vars.scss
+  app.scss
+css/
+  app.css
+js/
+  bootstrap.js
+  scripts.js
+```
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+## Credits
 
----
+* [Adam Knee](http://adamknee.net/)
+* [Sass MQ](https://github.com/sass-mq/sass-mq)
+* [Bootstrap](http://getbootstrap.com)
 
-## Create a file
+## License
 
-Next, you’ll add a new file to this repository.
+spaceBoots3 is free to use under the [MIT License](LICENSE.md).
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+Copyright 2018 [Adam Knee](http://www.adamknee.net)

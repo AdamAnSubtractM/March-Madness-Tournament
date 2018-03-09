@@ -1,0 +1,45 @@
+# never commit compiled code
+dist
+dist/
+dist/*
+dists/minified/*
+
+# Temporary Sass files
+.sass-cache/
+
+### Mac ###
+.DS_Store
+
+### Win ###
+Thumbs.db
+ehthumbs.db
+
+### IntelliJ ###
+.idea
+
+### Log files ###
+*.log
+# Logs
+logs
+
+### Runtime data ###
+pids
+*.pid
+*.seed
+
+### Local ###
+dev
+typings
+bower_components
+node_modules
+tmp
+tsconfig.json
+.yo-rc.json
+*.esproj
+*.esproj/*
+*.psd
+*.ai
+*.jpg
+*.png
+*.jpeg
+*.gif

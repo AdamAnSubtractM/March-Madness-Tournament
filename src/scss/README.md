@@ -1,0 +1,29 @@
+# SCSS Architecture Overview
+
+## File Structure
+
+The `scss/` directory contains a few important things.
+
+- **Bootsrap3** contains the entirety of the bootstra3 framework. It contains all of the scss partials and mixins that make up bootstrap 3. This boilerplate has all bootsrap 3 components imported into the stylesheet but you can make it as robust as you need it. Exclude items you don't need or won't use. These items all get imported in the 'bootsrap3/_bootstrap3' partial and the bootstap3 partial gets imported into the manifest which is then imported into the main stylesheet.
+- **vars** is the partial where you will define global variables to reuse throughout your code. See Global Variables below for more information.
+- **manifest** is the partial that imports the bootstrap4 framework and your custom variables from the var partial.
+
+
+## Compilation
+
+All scss files are processed by GULP and put into the dist folder. You can choose to pull a minified version or not.
+
+
+## Global Variables
+
+Customizable variables are stored in the `_vars.scss` partial. This includes things like font styles, colors, breakpoints and base sizing measurements. Use these variables throughout the rest of the project, and add more as you see fit. `_vars.scss` also contains switches to include or exclude features as you need them.
+
+(Adam Knee)[http://www.adamknee.net]
+
+
+
+
+
+
+
+

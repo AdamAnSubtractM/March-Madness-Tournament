@@ -1,0 +1,435 @@
+html {
+    body {
+        margin: 0;
+        #container_3074457345618274805 {
+            .homepage-espot-level1, .homepage-espot-level2 {
+                display: none;
+            }
+        }
+        #static-page {
+            padding: 0;
+            margin: 0;
+        }
+        .ncaa-bracket {
+            @import "manifest";
+            font-family: $font-body;
+            font-size: 10px !important;
+            color: $black;
+            /** Override grid system padding on mobile devices to be less */
+            .row {
+                margin-left: -5px;
+                margin-right: -5px;
+                @media(min-width: 641px) {
+                    margin-left: -15px;
+                    margin-right: -15px;
+                }
+                [class^="col-"] {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    @media(min-width: 641px) {
+                        padding-right: 15px;
+                        padding-left: 15px;
+                    }
+                }
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: $font-head;
+                line-height: 1;
+                margin: 0;
+                color: $blue;
+            }
+            p {
+                color: $blue;
+            }
+            a {
+                color: $blue;
+                background: transparent;
+                cursor: pointer;
+                * {
+                    cursor: pointer;
+                }
+                &:visited, &:active, &:focus, &:hover {
+                    color: inherit;
+                    background: inherit;
+                    text-decoration: none;
+                }
+            }
+            main {
+                .landing-hero-content {
+                    background-image: url('//s7d2.scene7.com/is/image/dksfed/lic1463-basketball-wallpaper');
+                    background-repeat: repeat-x;
+                    background-position: center;
+                    text-align: center;
+                    text-transform: uppercase;
+                    header {
+                        display: block;
+                        width: 100%;
+                        min-height: 100px;
+                        background-color: $blue-transparent;
+                        border-bottom: 4px solid $orange;
+                        padding: 0 2%;
+                        @media (min-width: 641px) {
+                            min-height: 370px;
+                        }
+                        * {
+                            color: $white!important;
+                        }
+                        h2, h3, h4 {
+                            font-size: 3.5em;
+                            padding-top: 25px;
+                            @media (min-width: 400px) {
+                                font-size: 5em;
+                            }
+                            @media (min-width: 500px) {
+                                font-size: 6em;
+                            }
+                            @media (min-width: 641px) {
+                                font-size: 8em;
+                                padding-top: 44px;
+                            }
+                            @media (min-width: 800px) {
+                                font-size: 10em;
+                                padding-top: 24px;
+                            }
+                            @media (min-width: 1028px) {
+                                padding-top: 50px;
+                            }
+                            @media (min-width: 1359px) {
+                                padding-top: 100px
+                            }
+                        }
+                        p {
+                            font-family: $font-head-other;
+                            font-size: 2.5em;
+                            line-height: 1;
+                            margin-top: 10px;
+                            @media (min-width: 400px) {
+                                font-size: 3em;
+                            }
+                            @media (min-width: 500px) {
+                                font-size: 3.5em;
+                            }
+                            @media (min-width: 641px) {
+                                font-size: 5em;
+                                margin: 20px auto;
+                            }
+                        }
+                    }
+                    * {
+                        text-align: inherit;
+                        text-align: -webkit-match-parent;
+                        text-transform: inherit;
+                    }
+                }
+                nav {
+                    text-align: center;
+                    * {
+                        text-transform: uppercase;
+                        font-size: inherit;
+                    }
+                    a {
+                        padding: 6px 16px;
+                        text-decoration: none;
+                        &:visited, &:focus, &:active {
+                            text-decoration: none;
+                        }
+                        &:hover {
+                            color: $white;
+                            background-color: $blue;
+                            text-decoration: none;
+                        }
+                        @media (min-width: 641px) {
+                            padding: 16px 40px;
+                        }
+                    }
+                    &.main-navigation {
+                        background-color: $white;
+                        margin: 12px auto;
+                        @media (min-width: 500px) {
+                            margin: 22px auto;
+                        }
+                        @media (min-width: 641px) {
+                            margin: 45px auto;
+                        }
+                        ul {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            list-style: none;
+                            margin: 0;
+                            padding: 0;
+                            li {
+                                text-align: inherit;
+                                text-align: -webkit-match-parent;
+                                border-right: thin solid $gray;
+                                &:last-child {
+                                    border: none;
+                                }
+                                a {
+                                    display: flex;
+                                    align-items: flex-start;
+                                    font-size: 1.4em;
+                                    @media (min-width: 375px) {
+                                        font-size: 1.8em;
+                                    }
+                                    @media (min-width: 500px) {
+                                        font-size: 2.5em;
+                                    }
+                                    @media (min-width: 768px) {
+                                        font-size: 3em;
+                                    }
+                                    &.active {
+                                        background-color: $blue;
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .ncaa-bracket-container {
+                    background-color: $gray-light;
+                    background: url('//s7d2.scene7.com/is/image/dksfed/lic1463-basketball-lighter');
+                    background-repeat: no-repeat;
+                    background-position: right center;
+                    min-height: 1240px;
+                    @media (min-width: 768px) {
+                        min-height: 1140px;
+                    }
+                    .ncaa-bracket-inner-wrap {
+                        background-color: $gray-transparent;
+                        position: relative;
+                        min-height: inherit;
+                        > .container, >.container-fluid {
+                            max-width: 2200px;
+                        }
+                        .pre-champ-container {
+                                > [class^="col-"] {
+                                    padding-bottom: 10px;
+                                }
+                        }
+                        .cell-grouping {
+                            @include smoothMovement(.25s);
+                            display: block;
+                            margin-bottom: 44px;
+                            @media (min-width: 768px) {
+                                margin-bottom: 50px;
+                            }
+                            @media (min-width: 992px) {
+                                margin-bottom: 58px;
+                            }
+                            &:last-child {
+                                margin-bottom: 0!important;
+                            }
+                            .cell {
+                                background-color: $gray-dark;
+                                text-transform: uppercase;
+                                text-align: right;
+                                padding: 2px 4px;
+                                overflow: hidden;
+                                &:first-child {
+                                    margin-bottom: 4px;
+                                }
+                                * {
+                                    text-transform: inherit;
+                                }
+                                p {
+                                    margin: 0 auto;
+                                    font-family: $dsg-sans-med;
+                                    @media (min-width: 641px) {
+                                        font-size: 1.3em;
+                                    }
+                                    @media (min-width: 992px) {
+                                        font-size: 1.6em;
+                                    }
+                                    a {
+                                        display: block;
+                                        height: 100%;
+                                        padding: 1em 0;
+                                        font-size: inherit;
+                                        font-family: inherit;
+                                    }
+                                    &.team {
+                                        visibility: hidden;
+                                        display: none;
+                                        @media (min-width: 400px) {
+                                            display: block;
+                                            visibility: visible;
+                                        }
+                                    }
+                                    &.team-abreviation {
+                                        @media (min-width: 400px) {
+                                            visibility: hidden;
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                &.eliminated {
+                                    p {
+                                        color: #999;
+                                        text-decoration: line-through;
+                                    }
+                                }
+                                .seed-number {
+                                    display: inline;
+                                    float: left;
+                                    font-size: inherit;
+                                }
+                            }
+                            &.region-champ-cell {
+                                text-transform: uppercase;
+                                text-align: center;
+                                > h2, >h3, >h4, >h5, >h6 {
+                                    margin-bottom: 24px;
+                                    font-size: 3.5em;
+                                    font-family: $din-med;
+                                }
+                                * {
+                                    text-transform: inherit;
+                                    text-align: inherit;
+                                }
+                                small {
+                                    display: block;
+                                    font-weight: lighter;
+                                    font-family: $din-light;
+                                    font-size: 50%;
+                                }
+                                .cell {
+                                    max-width: 140px;
+                                    margin: auto;
+                                    p {
+                                        &.team {
+                                            visibility: visible;
+                                            display: block;
+                                        }
+                                    }
+                                    @media (min-width: 768px) {
+                                        max-width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                        .region-champ-section {
+                            background-color: $gray-light;
+                            border-top: 10px solid $white;
+                            padding: 55px 0;
+                            @media (min-width: 768px) {
+                                background-color: transparent;
+                                border-top: none;
+                                padding: 0;
+                                .region-champ-cell {
+                                    margin-top: 560px;
+                                }
+                            }
+                            @media (min-width: 992px) {
+                                .region-champ-cell {
+                                    margin-top: 658px;
+                                    min-height: 52px;
+                                }
+                            }
+                        }
+                        .round-number {
+                            text-transform: uppercase;
+                            text-align: center;
+                            font-family: $din-light;
+                            font-size: 1.4em;
+                            margin: 0 auto 35px;
+                            padding: 16px 4px;
+                            max-width: 122px;
+                            @media (min-width: 400px) {
+                                font-size: 1.6em;
+                                padding: 20px 6px;
+                            }
+                            @media (min-width: 641px) {
+                                margin-bottom: 55px;
+                                padding: 30px 10;
+                                font-size: 2em;
+                            }
+                            &.active {
+                                background-color: $blue;
+                                color: $white;
+                            }
+                            * {
+                                text-transform: inherit;
+                                text-align: inherit;
+                                font-family: inherit;
+                                font-size: inherit;
+                                color: inherit;
+                                margin: 0 auto;
+                            }
+                        }
+                        .round-two {
+                            .cell-grouping {
+                                margin-bottom: 160px;
+                                &:nth-child(2) {
+                                    margin-top: 96px;
+                                    @media (min-width: 641px) {
+                                        margin-top: 128px;
+                                    }
+                                    @media (min-width: 992px) {
+                                        margin-top: 142px;
+                                    }
+                                }
+                                @media (min-width: 641px) {
+                                    margin-bottom: 176px;
+                                }
+                                @media (min-width: 768px) {
+                                    margin-bottom: 192px;
+                                }
+                                @media (min-width: 992px) {
+                                    margin-bottom: 218px;
+                                }
+                            }
+                        }
+                        .round-three {
+                            .cell-grouping {
+                                margin-bottom: 388px;
+                                &:nth-child(2) {
+                                    margin-top: 212px;
+                                    @media (min-width: 641px) {
+                                        margin-top: 258px;
+                                    }
+                                    @media (min-width: 768px) {
+                                        margin-top: 264px;
+                                    }
+                                    @media (min-width: 992px) {
+                                        margin-top: 304px;
+                                    }
+                                }
+                                @media (min-width: 641px) {
+                                    margin-bottom: 446px;
+                                }
+                                @media (min-width: 768px) {
+                                    margin-bottom: 472px;
+                                }
+                                @media (min-width: 992px) {
+                                    margin-bottom: 554px;
+                                }
+                            }
+                        }
+                        .round-four {
+                            .cell-grouping {
+                                margin-bottom: 0;
+                                &:nth-child(2) {
+                                    margin-top: 442px;
+                                    @media (min-width: 641px) {
+                                        margin-top: 526px;
+                                    }
+                                    @media (min-width: 768px) {
+                                        margin-top: 546px;
+                                    }
+                                    @media (min-width: 992px) {
+                                        margin-top: 638px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } /** end .ncaa-bracket */
+    } /** end body */
+} /** end html */
+
+
+

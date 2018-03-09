@@ -1,0 +1,41 @@
+{
+  "name": "2018 March Madness Bracket",
+  "version": "1.0.0",
+  "description": "2018 March Madness Bracket.",
+  "main": "gulpfile.js",
+  "author": "Adam Knee (https://adamknee.net/)",
+  "contributors": [
+    "Twitter, Inc."
+  ],
+  "repository": "https://bitbucket.org/dsgfed/march-madness-bracket-2018",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.5",
+    "del": "^3.0.0",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-data": "^1.2.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-jsdom": "^0.1.4",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify": "1.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-strip-comments": "^2.5.1",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "postcss-scss": "^1.0.1",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
