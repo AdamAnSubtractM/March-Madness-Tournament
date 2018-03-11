@@ -37,6 +37,9 @@ html {
                 line-height: 1;
                 margin: 0;
                 color: $blue;
+                small {
+                    color: inherit !important;
+                }
             }
             p {
                 color: $blue;
@@ -227,6 +230,13 @@ html {
                                 text-align: right;
                                 padding: 2px 4px;
                                 overflow: hidden;
+                                min-height: 40px;
+                                &:hover {
+                                    background-color: #a2a3a1;
+                                    * {
+                                        color: #f2f2f2 !important;
+                                    }
+                                }
                                 &:first-child {
                                     margin-bottom: 4px;
                                 }
@@ -236,11 +246,13 @@ html {
                                 p {
                                     margin: 0 auto;
                                     font-family: $dsg-sans-med;
+                                    font-size: 1.25em;
                                     @media (min-width: 641px) {
                                         font-size: 1.3em;
                                     }
                                     @media (min-width: 992px) {
-                                        font-size: 1.6em;
+                                        font-size: 1.8em;
+                                        min-height: 52px;
                                     }
                                     a {
                                         display: block;
@@ -266,8 +278,17 @@ html {
                                 }
                                 &.eliminated {
                                     p {
-                                        color: #999;
+                                        color: #999 !important;
                                         text-decoration: line-through;
+                                    }
+                                    * {
+                                        color: #999 !important;
+                                    }
+                                    &:hover {
+                                        background-color: #a2a3a1;
+                                        * {
+                                            color: #f2f2f2 !important;
+                                        }
                                     }
                                 }
                                 .seed-number {
@@ -282,6 +303,7 @@ html {
                                 > h2, >h3, >h4, >h5, >h6 {
                                     margin-bottom: 24px;
                                     font-size: 3.5em;
+                                    line-height: 1.3;
                                     font-family: $din-med;
                                 }
                                 * {
@@ -298,6 +320,7 @@ html {
                                     max-width: 140px;
                                     margin: auto;
                                     p {
+                                        font-size: 1.5em;
                                         &.team {
                                             visibility: visible;
                                             display: block;
@@ -305,6 +328,9 @@ html {
                                     }
                                     @media (min-width: 768px) {
                                         max-width: 100%;
+                                    }
+                                    @media (min-width: 992px) {
+                                        font-size: 1.35em;
                                     }
                                 }
                             }
@@ -318,12 +344,12 @@ html {
                                 border-top: none;
                                 padding: 0;
                                 .region-champ-cell {
-                                    margin-top: 560px;
+                                    margin-top: 640px;
                                 }
                             }
                             @media (min-width: 992px) {
                                 .region-champ-cell {
-                                    margin-top: 658px;
+                                    margin-top: 690px;
                                     min-height: 52px;
                                 }
                             }
@@ -360,50 +386,53 @@ html {
                         }
                         .round-two {
                             .cell-grouping {
-                                margin-bottom: 160px;
+                                margin-bottom: 190px;
                                 &:nth-child(2) {
-                                    margin-top: 96px;
+                                    margin-top: 110px;
                                     @media (min-width: 641px) {
-                                        margin-top: 128px;
+                                        margin-top: 132px;
+                                    }
+                                    @media (min-width: 768px) {
+                                        margin-top: 134px;
                                     }
                                     @media (min-width: 992px) {
-                                        margin-top: 142px;
+                                        margin-top: 150px;
                                     }
                                 }
                                 @media (min-width: 641px) {
-                                    margin-bottom: 176px;
+                                    margin-bottom: 194px;
                                 }
                                 @media (min-width: 768px) {
-                                    margin-bottom: 192px;
+                                    margin-bottom: 206px;
                                 }
                                 @media (min-width: 992px) {
-                                    margin-bottom: 218px;
+                                    margin-bottom: 236px;
                                 }
                             }
                         }
                         .round-three {
                             .cell-grouping {
-                                margin-bottom: 388px;
+                                margin-bottom: 482px;
                                 &:nth-child(2) {
-                                    margin-top: 212px;
+                                    margin-top: 256px;
                                     @media (min-width: 641px) {
-                                        margin-top: 258px;
+                                        margin-top: 278px;
                                     }
                                     @media (min-width: 768px) {
-                                        margin-top: 264px;
+                                        margin-top: 288px;
                                     }
                                     @media (min-width: 992px) {
-                                        margin-top: 304px;
+                                        margin-top: 332px;
                                     }
                                 }
                                 @media (min-width: 641px) {
-                                    margin-bottom: 446px;
+                                    margin-bottom: 490px;
                                 }
                                 @media (min-width: 768px) {
-                                    margin-bottom: 472px;
+                                    margin-bottom: 514px;
                                 }
                                 @media (min-width: 992px) {
-                                    margin-bottom: 554px;
+                                    margin-bottom: 594px;
                                 }
                             }
                         }
@@ -411,15 +440,15 @@ html {
                             .cell-grouping {
                                 margin-bottom: 0;
                                 &:nth-child(2) {
-                                    margin-top: 442px;
+                                    margin-top: 548px;
                                     @media (min-width: 641px) {
-                                        margin-top: 526px;
+                                        margin-top: 576px;
                                     }
                                     @media (min-width: 768px) {
-                                        margin-top: 546px;
+                                        margin-top: 600px;
                                     }
                                     @media (min-width: 992px) {
-                                        margin-top: 638px;
+                                        margin-top: 694px;
                                     }
                                 }
                             }
