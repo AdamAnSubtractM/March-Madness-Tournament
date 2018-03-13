@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
   console.log('ready');
   // Determines whether the content populates in staging only or not. True = only staging enviornment, false = PROD and Staging
-  var stagingEnvOnly = false;
+  var stagingEnvOnly = true;
   // Determines whether the Sweet Sixteen has officially started.
   var sweetSixteen = false;
   // Determines whether the Elite Eight has officially started.
@@ -39,31 +39,31 @@ jQuery(document).ready(function($){
       // full team name.
       // Options: *** Will be determined day before launch ***
       // Example: Kentucky, Virginia, Virginia Tech, Villanova
-      schoolName : "Kentucky",
+      schoolName : "Villanova",
       // This determines the school's abbreviation. This is super important
       // as the name switch to the abbreviation on mobile.
-      abbreviation : "KY",
+      abbreviation : "VILL",
       // Click through link:
-      ctaLink: "/s/fan-shop",
+      ctaLink: "/c/villanova-wildcats-apparel-gear",
       // The rounds determine which column the team is populated in.
       // During the beginning rounds, every team will have first round set to 'true'
       // Only the teams that advance to the next round will get a 'true' on the
       // proceeding rounds.
       // Options: Boolean
       firstRound : true,
-      secondRound : true,
-      thirdRound : true,
-      fourthRound : true,
+      secondRound : false,
+      thirdRound : false,
+      fourthRound : false,
       // This determines whether the team has been eliminated or not.
       // This is technically optional as not every team will be eliminated but
       // its definitely required for those that are eliminated.
       // Options: Boolean
-      eliminated : true,
+      eliminated : false,
       // This determines whether the team has won their division or not
       // This is technically optional as not every team will win their divison but
       // its definitely required for those that do.
       // Options: Boolean
-      divisionWinner : true,
+      divisionWinner : false,
       // This determines whether the team has won the entire NCAA tournament
       // Only required for the overall winner of the tournament
       // Options: Boolean
@@ -71,9 +71,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 2,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Purdue",
+      abbreviation: "PUR",
+      ctaLink: "/c/purdue-boilermakers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -83,9 +83,9 @@ jQuery(document).ready(function($){
       tournamentWinner : false
     },{
       seedNumber : 3,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Texas Tech",
+      abbreviation: "TTU",
+      ctaLink: "/c/texas-tech-red-raiders-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -96,9 +96,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 4,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Wichita State",
+      abbreviation: "WICH",
+      ctaLink: "/c/wichita-state-shockers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -109,9 +109,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 5,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "West Virginia",
+      abbreviation: "WVU",
+      ctaLink: "/c/west-virginia-mountaineers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -122,9 +122,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 6,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Florida",
+      abbreviation: "FLA",
+      ctaLink: "/c/florida-gators-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -135,9 +135,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 7,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Arkansas",
+      abbreviation: "ARK",
+      ctaLink: "/c/arkansas-razorbacks-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -148,9 +148,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 8,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Virginia Tech",
+      abbreviation: "VT",
+      ctaLink: "/c/virginia-tech-hokies-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -161,9 +161,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 9,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Alabama",
+      abbreviation: "ALA",
+      ctaLink: "/c/alabama-crimson-tide-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -174,9 +174,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 10,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Butler",
+      abbreviation: "BUT",
+      ctaLink: "/c/butler-bulldogs-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -187,8 +187,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 11,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "BON/LA",
+      abbreviation: "TBD",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -200,9 +200,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 12,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Murray State",
+      abbreviation: "MURR",
+      ctaLink: "/c/murray-state-racers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -213,9 +213,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 13,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Marshall",
+      abbreviation: "MRSH",
+      ctaLink: "/c/marshall-thundering-herd-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -226,8 +226,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 14,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "SF Austin",
+      abbreviation: "SFA",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -239,8 +239,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 15,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "CSU Fullerton",
+      abbreviation: "CSF",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -252,8 +252,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 16,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "LIU/RAD",
+      abbreviation: "TBD",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -267,9 +267,9 @@ jQuery(document).ready(function($){
   var west = [
     {
       seedNumber : 1,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Xavier",
+      abbreviation: "XAV",
+      ctaLink: "/c/xavier-musketeers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -280,9 +280,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 2,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "UNC",
+      abbreviation: "UNC",
+      ctaLink: "/c/north-carolina-tar-heels-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -292,9 +292,9 @@ jQuery(document).ready(function($){
       tournamentWinner : false
     },{
       seedNumber : 3,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Michigan",
+      abbreviation: "MICH",
+      ctaLink: "/c/michigan-wolverines-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -305,9 +305,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 4,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Gonzaga",
+      abbreviation: "GONZ",
+      ctaLink: "/c/gonzaga-bulldogs-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -318,9 +318,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 5,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "OSU",
+      abbreviation: "OSU",
+      ctaLink: "/c/ohio-state-buckeyes-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -331,22 +331,22 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 6,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Houston",
+      abbreviation: "HOU",
+      ctaLink: "/c/houston-cougars-apparel-gear",
       firstRound: true,
-      secondRound : true,
-      thirdRound : true,
-      fourthRound : true,
+      secondRound : false,
+      thirdRound : false,
+      fourthRound : false,
       eliminated : false,
       divisionWinner : false,
       tournamentWinner : false
     },
     {
       seedNumber : 7,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Texas A&M",
+      abbreviation: "TA&M",
+      ctaLink: "/c/texas-am-aggies-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -357,9 +357,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 8,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Missouri",
+      abbreviation: "MIZZ",
+      ctaLink: "/c/missouri-tigers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -370,9 +370,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 9,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Florida State",
+      abbreviation: "FSU",
+      ctaLink: "/c/florida-state-seminoles-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -383,9 +383,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 10,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Providence",
+      abbreviation: "PROV",
+      ctaLink: "/c/providence-friars-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -396,9 +396,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 11,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "San Diego State",
+      abbreviation: "SDSU",
+      ctaLink: "/c/san-diego-state-aztecs-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -409,9 +409,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 12,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "South Dakota State",
+      abbreviation: "SDSU",
+      ctaLink: "/c/south-dakota-state-jackrabbits-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -422,8 +422,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 13,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "UNCG",
+      abbreviation: "UNCG",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -435,9 +435,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 14,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Montana",
+      abbreviation: "MONT",
+      ctaLink: "/c/montana-grizzlies-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -448,8 +448,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 15,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "Lipscomb",
+      abbreviation: "LIP",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -461,8 +461,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 16,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "NCC/TS",
+      abbreviation: "TBD",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -476,9 +476,9 @@ jQuery(document).ready(function($){
   var midwest = [
     {
       seedNumber : 1,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Kansas",
+      abbreviation: "KU",
+      ctaLink: "/c/kansas-jayhawks-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -489,9 +489,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 2,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Duke",
+      abbreviation: "DUKE",
+      ctaLink: "/c/duke-blue-devils-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -501,9 +501,9 @@ jQuery(document).ready(function($){
       tournamentWinner : false
     },{
       seedNumber : 3,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Michigan State",
+      abbreviation: "MSU",
+      ctaLink: "/c/michigan-state-spartans-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -514,9 +514,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 4,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Auburn",
+      abbreviation: "AUB",
+      ctaLink: "/c/auburn-tigers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -527,9 +527,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 5,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Clemson",
+      abbreviation: "CLEM",
+      ctaLink: "/c/clemson-tigers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -540,8 +540,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 6,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "TCU",
+      abbreviation: "TCU",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -553,9 +553,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 7,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "URI",
+      abbreviation: "URI",
+      ctaLink: "/c/rhode-island-rams-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -566,9 +566,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 8,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Seton Hall",
+      abbreviation: "HALL",
+      ctaLink: "/c/seton-hall-pirates-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -579,9 +579,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 9,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "NC State",
+      abbreviation: "NCST",
+      ctaLink: "/c/nc-state-wolfpack-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -592,9 +592,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 10,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Oklahoma",
+      abbreviation: "OKLA",
+      ctaLink: "/c/oklahoma-sooners-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -605,8 +605,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 11,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "ASU/SY",
+      abbreviation: "TBD",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -618,9 +618,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 12,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "New Mexico State",
+      abbreviation: "NMSU",
+      ctaLink: "/c/new-mexico-state-aggies-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -631,8 +631,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 13,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "Charleston",
+      abbreviation: "COFC",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -644,8 +644,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 14,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "Bucknell",
+      abbreviation: "BUCK",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -657,8 +657,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 15,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "Iona",
+      abbreviation: "IONA",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -670,8 +670,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 16,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "Penn",
+      abbreviation: "PENN",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -685,9 +685,9 @@ jQuery(document).ready(function($){
   var south = [
     {
       seedNumber : 1,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "UVA",
+      abbreviation: "UVA",
+      ctaLink: "/c/virginia-cavaliers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -698,9 +698,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 2,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Cincinnati",
+      abbreviation: "CIN",
+      ctaLink: "/c/cincinnati-bearcats-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -710,9 +710,9 @@ jQuery(document).ready(function($){
       tournamentWinner : false
     },{
       seedNumber : 3,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Tennessee",
+      abbreviation: "TENN",
+      ctaLink: "/c/tennessee-volunteers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -723,9 +723,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 4,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Arizona",
+      abbreviation: "ARIZ",
+      ctaLink: "/c/arizona-wildcats-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -736,9 +736,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 5,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Kentucky",
+      abbreviation: "UK",
+      ctaLink: "/c/kentucky-wildcats-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -749,9 +749,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 6,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Miami",
+      abbreviation: "MIA",
+      ctaLink: "/c/miami-hurricanes-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -762,9 +762,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 7,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Nevada",
+      abbreviation: "NEV",
+      ctaLink: "/c/nevada-wolf-pack-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -775,9 +775,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 8,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Creighton",
+      abbreviation: "CREI",
+      ctaLink: "/c/creighton-bluejays-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -788,9 +788,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 9,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Kansas State",
+      abbreviation: "KSU",
+      ctaLink: "/c/kansas-state-wildcats-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -801,9 +801,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 10,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Texas",
+      abbreviation: "TEX",
+      ctaLink: "/c/texas-longhorns-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -814,8 +814,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 11,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "Loyola-Chicago",
+      abbreviation: "L-IL",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -827,9 +827,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 12,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Davidson",
+      abbreviation: "DAV",
+      ctaLink: "/c/davidson-wildcats-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -840,9 +840,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 13,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Buffalo",
+      abbreviation: "BUFF",
+      ctaLink: "c/buffalo-bulls-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -853,9 +853,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 14,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Wright State",
+      abbreviation: "WRST",
+      ctaLink: "/c/wright-state-raiders-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -866,9 +866,9 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 15,
-      schoolName : "",
-      abbreviation: "",
-      ctaLink: "",
+      schoolName : "Georgia State",
+      abbreviation: "GSU",
+      ctaLink: "/c/georgia-state-panthers-apparel-gear",
       firstRound: true,
       secondRound : false,
       thirdRound : false,
@@ -879,8 +879,8 @@ jQuery(document).ready(function($){
     },
     {
       seedNumber : 16,
-      schoolName : "",
-      abbreviation: "",
+      schoolName : "UMBC",
+      abbreviation: "UMBC",
       ctaLink: "",
       firstRound: true,
       secondRound : false,
@@ -896,6 +896,9 @@ jQuery(document).ready(function($){
   // Page functions start to fire here
   // Check if the stagingEnvOnly var is set to true. If so only display the content in the staging enviornments. Post launch, this should be set to false.
   // ==================================
+  // Set main hero content CTA:
+  $('.ncaa-bracket .landing-hero-content a').attr("href", "/f/college-bball-2018");
+  // $('.ncaa-bracket .landing-hero-content p').html('Click on your team to shop the latest apparel &amp; gear');
   if (stagingEnvOnly == true) {
     if ( (window.location.href.indexOf("auth1") > -1 || window.location.href.indexOf("rdc") > -1 || window.location.href.indexOf("ssc") > -1 || window.location.href.indexOf("auth2") > -1) ) {
       // Populate the bracket at the start with the East content
@@ -1226,3 +1229,7 @@ jQuery(document).ready(function($){
     contentLoaded();
   }
 });
+
+
+
+
