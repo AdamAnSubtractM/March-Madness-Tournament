@@ -2,13 +2,25 @@ March Madness Tournament 2018
 =========
 ## Getting Started
 ```sh
-1. $ git clone https://user-name@bitbucket.org/dsgfed/spaceBoots3.git
+1. $ git clone https://bitbucket.org/dsgfed/march-madness-bracket-2018
 2. $ npm i
 3. $ gulp launch
 ```
 ## Updating the data file as the tournament goes on. See the example and documentation below:
 * Questions?: See [Adam Knee](https://bitbucket.org/adam-knee/)
 ```
+// The round number data object. This determines which round gets the active state styling
+  var y =
+  {
+    // Only one should be true at once! Once round one is over, switch it to false
+    // and set round2 or the proceeding round to the current round to true.
+    // If I had more time, I'd write logic to prevent them from ever being true at the same time.
+    round1 : true,
+    round2 : false,
+    round3 : false,
+    round4 : false
+  };
+  
 / The NCAA data object. The entire page is generated from these data objects. There is one for each division (e.g. east, west, midwest, south)
   var east = [
     {
