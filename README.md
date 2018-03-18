@@ -2,7 +2,7 @@ March Madness Tournament 2018
 =========
 ## Getting Started
 ```sh
-1. $ git clone https://bitbucket.org/dsgfed/march-madness-bracket-2018
+1. $ git clone https://github.com/AdamAndSubtractThem/March-Madness-Tournament
 2. $ npm i
 3. $ gulp launch
 ```

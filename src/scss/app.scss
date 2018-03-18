@@ -264,13 +264,13 @@ html {
                                     &.team {
                                         visibility: hidden;
                                         display: none;
-                                        @media (min-width: 400px) {
+                                        @media (min-width: 450px) {
                                             display: block;
                                             visibility: visible;
                                         }
                                     }
                                     &.team-abreviation {
-                                        @media (min-width: 400px) {
+                                        @media (min-width: 450px) {
                                             visibility: hidden;
                                             display: none;
                                         }
